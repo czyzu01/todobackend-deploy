@@ -1,0 +1,10 @@
+---
+vpc_id: vpc-a96ca3c0
+subnet_id: subnet-fb24fc92
+ec2_keypair: admin-east-2
+instance_count: 2
+db_subnets:
+  - subnet-fb24fc92
+  - subnet-57ece01d
+db_availability_zone: us-east-2a
+db_username: todobackend
